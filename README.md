@@ -42,8 +42,8 @@ Install PyTorch (already included by default, but you can reinstall if needed):
 Install the project requirements:
 
 ```bash
-!pip install -r /content/Hunyuan3D-2/requirements.txt
-!pip install -e /content/Hunyuan3D-2/.
+!pip install -r /content/Hunyuan3D-2-Abimael/requirements.txt
+!pip install -e /content/Hunyuan3D-2-Abimael/.
 ```
 
 Check that the image paths are correct:

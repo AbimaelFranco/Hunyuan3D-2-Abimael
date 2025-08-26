@@ -49,11 +49,11 @@ Install the project requirements:
 Check that the image paths are correct:
 
 ```bash
-!cat Hunyuan3D-2/shape_gen_multiview.py
+!cat Hunyuan3D-2-Abimael/shape_gen_multiview.py
 ```
 
 Generate a 3D shape:
 
 ```bash
-!python3 /content/Hunyuan3D-2/fast_shape_gen_multiview.py
+!python3 /content/Hunyuan3D-2-Abimael/fast_shape_gen_multiview.py
 ```

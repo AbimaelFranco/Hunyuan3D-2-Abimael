@@ -19,35 +19,23 @@
 <br>
 
 
-## **Abstract**
+## **Abstract** 
 
-We present Hunyuan3D 2.0, an advanced large-scale 3D synthesis system for generating high-resolution textured 3D assets.
-This system includes two foundation components: a large-scale shape generation model - Hunyuan3D-DiT, and a large-scale
-texture synthesis model - Hunyuan3D-Paint.
-The shape generative model, built on a scalable flow-based diffusion transformer, aims to create geometry that properly
-aligns with a given condition image, laying a solid foundation for downstream applications.
-The texture synthesis model, benefiting from strong geometric and diffusion priors, produces high-resolution and vibrant
-texture maps for either generated or hand-crafted meshes.
-Furthermore, we build Hunyuan3D-Studio - a versatile, user-friendly production platform that simplifies the re-creation
-process of 3D assets. It allows both professional and amateur users to manipulate or even animate their meshes
-efficiently.
-We systematically evaluate our models, showing that Hunyuan3D 2.0 outperforms previous state-of-the-art models,
-including the open-source models and closed-source models in geometry details, condition alignment, texture quality, and
-e.t.c.
+This repository provides an adaptation of Hunyuan3D 2.0 for use in Google Colab, making it easier to run, experiment, and generate 3D assets in a cloud environment.
 
+Hunyuan3D 2.0, originally developed by Tencent, is a large-scale 3D synthesis system designed to generate high-resolution, textured 3D assets. It is built upon two foundation components:
 
+Hunyuan3D-DiT – a scalable flow-based diffusion transformer for 3D shape generation, ensuring geometry aligns correctly with input conditions.
+
+Hunyuan3D-Paint – a texture synthesis model leveraging geometric and diffusion priors to produce vivid, high-resolution texture maps for both generated and manually crafted meshes.
+
+In addition, the system includes Hunyuan3D-Studio, a versatile production platform that simplifies 3D asset creation and manipulation. It is designed for both professionals and enthusiasts, supporting mesh editing, re-creation, and even animation workflows.
+
+The original research demonstrates that Hunyuan3D 2.0 surpasses previous state-of-the-art models—both open-source and proprietary—in geometry detail, condition alignment, and texture quality.
 
 <p align="center">
   <img src="assets/images/system.jpg">
 </p>
-
-## ☯️ **Hunyuan3D 2.0**
-
-### Architecture
-
-Hunyuan3D 2.0 features a two-stage generation pipeline, starting with the creation of a bare mesh, followed by the
-synthesis of a texture map for that mesh. This strategy is effective for decoupling the difficulties of shape and
-texture generation and also provides flexibility for texturing either generated or handcrafted meshes.
 
 <p align="left">
   <img src="assets/images/arch.jpg">

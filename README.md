@@ -1,23 +1,11 @@
+<p align="center">
+  <img src="assets/images/system.jpg">
+</p>
 
 <div align="center">
-  <a href=https://3d.hunyuan.tencent.com target="_blank"><img src=https://img.shields.io/badge/Official%20Site-333399.svg?logo=homepage height=22px></a>
-  <a href=https://huggingface.co/spaces/tencent/Hunyuan3D-2  target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Demo-276cb4.svg height=22px></a>
-  <a href=https://huggingface.co/tencent/Hunyuan3D-2 target="_blank"><img src=https://img.shields.io/badge/%F0%9F%A4%97%20Models-d96902.svg height=22px></a>
-  <a href=https://3d-models.hunyuan.tencent.com/ target="_blank"><img src= https://img.shields.io/badge/Page-bb8a2e.svg?logo=github height=22px></a>
-  <a href=https://discord.gg/dNBrdrGGMa target="_blank"><img src= https://img.shields.io/badge/Discord-white.svg?logo=discord height=22px></a>
-  <a href=https://arxiv.org/abs/2501.12202 target="_blank"><img src=https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv height=22px></a>
-  <a href=https://x.com/TencentHunyuan target="_blank"><img src=https://img.shields.io/badge/Hunyuan-black.svg?logo=x height=22px></a>
- <a href="#community-resources" target="_blank"><img src=https://img.shields.io/badge/Community-lavender.svg?logo=homeassistantcommunitystore height=22px></a>
+  <a href="https://3d-models.hunyuan.tencent.com/" target="_blank"><img src="https://img.shields.io/badge/Oficial%20website-333399.svg?logo=homepage" height="22px"></a>
+  <a href="https://github.com/Tencent-Hunyuan/Hunyuan3D-2" target="_blank"><img src="https://img.shields.io/badge/Original%20repo-2b6cb0.svg?logo=github" height="22px"></a>
 </div>
-
-[//]: # (  <a href=# target="_blank"><img src=https://img.shields.io/badge/Report-b5212f.svg?logo=arxiv height=22px></a>)
-
-[//]: # (  <a href=# target="_blank"><img src= https://img.shields.io/badge/Colab-8f2628.svg?logo=googlecolab height=22px></a>)
-
-[//]: # (  <a href="#"><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/v/mulankit?logo=pypi"  height=22px></a>)
-
-<br>
-
 
 ## **Abstract** 
 
@@ -32,10 +20,6 @@ Hunyuan3D-Paint – a texture synthesis model leveraging geometric and diffusion
 In addition, the system includes Hunyuan3D-Studio, a versatile production platform that simplifies 3D asset creation and manipulation. It is designed for both professionals and enthusiasts, supporting mesh editing, re-creation, and even animation workflows.
 
 The original research demonstrates that Hunyuan3D 2.0 surpasses previous state-of-the-art models—both open-source and proprietary—in geometry detail, condition alignment, and texture quality.
-
-<p align="center">
-  <img src="assets/images/system.jpg">
-</p>
 
 <p align="left">
   <img src="assets/images/arch.jpg">

@@ -8,9 +8,9 @@ from hy3dgen.rembg import BackgroundRemover
 from hy3dgen.texgen import Hunyuan3DPaintPipeline
 
 images_path = [
-    "assets/example_mv_images/1/front.png",
-    "assets/example_mv_images/1/left.png",
-    "assets/example_mv_images/1/back.png"
+    "/content/Hunyuan3D-2/assets/example_mv_images/1/Front.png",
+    "/content/Hunyuan3D-2/assets/example_mv_images/1/Side.png",
+    "/content/Hunyuan3D-2/assets/example_mv_images/1/Back.png"
 ]
 
 images = []

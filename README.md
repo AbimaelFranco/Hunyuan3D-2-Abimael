@@ -53,36 +53,39 @@ texture generation and also provides flexibility for texturing either generated 
   <img src="assets/images/arch.jpg">
 </p>
 
-### Performance
+### Get Started in Colab
 
-We have evaluated Hunyuan3D 2.0 with other open-source as well as close-source 3d-generation methods.
-The numerical results indicate that Hunyuan3D 2.0 surpasses all baselines in the quality of generated textured 3D assets
-and the condition following ability.
+Clone this repo in your colab
 
-| Model                   | CMMD(⬇)   | FID_CLIP(⬇) | FID(⬇)      | CLIP-score(⬆) |
-|-------------------------|-----------|-------------|-------------|---------------|
-| Top Open-source Model1  | 3.591     | 54.639      | 289.287     | 0.787         |
-| Top Close-source Model1 | 3.600     | 55.866      | 305.922     | 0.779         |
-| Top Close-source Model2 | 3.368     | 49.744      | 294.628     | 0.806         |
-| Top Close-source Model3 | 3.218     | 51.574      | 295.691     | 0.799         |
-| Hunyuan3D 2.0           | **3.193** | **49.165**  | **282.429** | **0.809**     |
+```bash
+!git clone https://github.com/AbimaelFranco/Hunyuan3D-2-Abimael.git
+```
 
-Generation results of Hunyuan3D 2.0:
-<p align="left">
-  <img src="assets/images/e2e-1.gif"  height=250>
-  <img src="assets/images/e2e-2.gif"  height=250>
-</p>
+Download pytorch (installed by default)
 
+```bash
+!pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+```
 
-## 🤗 Get Started with Hunyuan3D 2.0
+Install the requirements
 
-Hunyuan3D 2.0 supports Macos, Windows, Linux. You may follow the next steps to use Hunyuan3D 2.0 via:
+```bash
+!pip install -r /content/Hunyuan3D-2/requirements.txt
+!pip install -e /content/Hunyuan3D-2/.
+```
 
-- [Code](#code-usage)
-- [Gradio App](#gradio-app)
-- [API Server](#api-server)
-- [Blender Addon](#blender-addon)
-- [Official Site](#official-site)
+Verify images paths
+
+```bash
+!cat Hunyuan3D-2/shape_gen_multiview.py
+```
+
+Generate shape
+
+```bash
+!python3 /content/Hunyuan3D-2/fast_shape_gen_multiview.py
+```
+
 
 ### Install Requirements
 
